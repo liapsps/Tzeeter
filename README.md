@@ -1,6 +1,6 @@
 # Tzeeter - Um estudo sobre Desenvolvimento Web
 
-O Tzeeter é um clone simplificado do Twitter, criado como parte da disciplina de **Desenvolvimento Web**. A proposta é desenvolver uma plataforma onde os usuários podem criar perfis, postar Tzeets (mensagens) e interagir com outros usuários.
+O Tzeeter é um clone simplificado do Twitter, criado como parte da disciplina de **Desenvolvimento Web**. A proposta é desenvolver uma plataforma onde os usuários podem criar perfis, postar Tzeets e interagir com outros usuários.
 
 ## Funcionalidades
 

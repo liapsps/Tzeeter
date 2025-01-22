@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tzeeter Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação Lateral -->
+    <nav class="sidebar">
+        <ul class="menu">
+            <li><a href="#" class="menu-item active"><span class="icon">🏠</span>Home</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">🔍</span>Explore</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">🔔</span>Notifications</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">✉️</span>Messages</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">🔖</span>Bookmarks</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">📋</span>Lists</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">👤</span>Profile</a></li>
+            <li><a href="#" class="menu-item"><span class="icon">⋯</span>More</a></li>
+        </ul>
+        <button class="btn tweet-button">Tweet</button>
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+        <!-- Cabeçalho do Perfil -->
+        <header class="profile-header">
+            <div class="profile-banner">
+                <img class="profile-banner-img" src="https://i.pinimg.com/736x/60/c3/9e/60c39e8dd446877c80527a540f143abf.jpg" alt="Profile Banner">
+            </div>
+            <div class="profile-details">
+                <img class="profile-picture" src="https://i.pinimg.com/736x/e7/ef/80/e7ef800bcdfcb8b29af96976294adb13.jpg" alt="User Profile Picture">
+                <div class="profile-info">
+                    <h1 class="profile-name">Júlia Chaves</h1>
+                    <h2 class="profile-username">@liapsps</h2>
+                    <p class="profile-bio">Data Scientist Intern @ Atlântico and Tech Student @ Federal University of Ceará</p>
+                    <ul class="profile-meta">
+                        <li>📍 Fortaleza</li>
+                        <li>📅 Joined January 2010</li>
+                    </ul>
+                </div>
+                <button class="btn edit-profile">Edit Profile</button>
+            </div>
+        </header>
+
+        <!-- Estatísticas -->
+        <section class="profile-stats">
+            <a href="#"><strong>96</strong> Following</a>
+            <a href="#"><strong>79</strong> Followers</a>
+        </section>
+
+        <!-- Lista de Tweets -->
+        <section class="tweets">
+            <div class="tweet">
+                <img class="tweet-profile-picture" src="https://i.pinimg.com/736x/00/5b/ec/005becf24e8bbd03b18e0b7df5dc31d9.jpg" alt="User Profile">
+                <div class="tweet-content">
+                    <div class="tweet-header">
+                        <strong>Fluffy</strong> <span class="username">@fluffydev</span> · <span class="tweet-date">Oct 21, 2021</span>
+                    </div>
+                    <p class="tweet-text">Why debug code when you can chase the cursor? Productivity is overrated. 😼💻 #CatLife #Developer</p>
+                    <div class="tweet-actions">
+                        <button class="btn action reply">267</button>
+                        <button class="btn action retweet">7,005</button>
+                        <button class="btn action like">51.7K</button>
+                        <button class="btn action share"></button>
+                    </div>
+                </div>
+            </div>
+            <!-- Outro Tweet -->
+            <div class="tweet">
+                <img class="tweet-profile-picture" src="https://i.pinimg.com/736x/94/05/ed/9405edeab0a205194d9c70af6dc95513.jpg" alt="User Profile">
+                <div class="tweet-content">
+                    <div class="tweet-header">
+                        <strong>Snuggles</strong> <span class="username">@snugglesux</span> · <span class="tweet-date">Jun 1, 2011</span>
+                    </div>
+                    <p class="tweet-text">Does this button spark joy? No? Then DELETE IT. I'm a simple cat with complex UI preferences. 🖌️😸 #UXDesign</p>
+                    <div class="tweet-actions">
+                        <button class="btn action reply">150</button>
+                        <button class="btn action retweet">4,123</button>
+                        <button class="btn action like">12.3K</button>
+                        <button class="btn action share"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Botão de alternar tema -->
+    <button id="theme-toggle" class="btn">Toggle Theme</button>
+
+    <!-- Vinculando o arquivo JavaScript -->
+    <script src="scripts.js"></script>
+</body>
+</html>

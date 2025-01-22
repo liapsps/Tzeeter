@@ -87,8 +87,10 @@ button {
 }
 
 .profile-header {
+    position: relative;
     margin-bottom: 20px;
     border-bottom: 1px solid #e1e8ed;
+    z-index: 1;
 }
 
 .profile-banner {
@@ -107,7 +109,7 @@ button {
 .profile-details {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     margin-top: -50px;
     padding: 0 15px;
 }
@@ -117,11 +119,12 @@ button {
     border: 4px solid white;
     width: 100px;
     height: 100px;
+    z-index: 2;
 }
-
+  
 .profile-info {
-    text-align: center;
-    margin-top: 10px;
+    text-align: left;
+    margin-top: 20px;
 }
 
 .profile-name {
@@ -147,7 +150,7 @@ button {
     color: #536471;
     font-size: 14px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     gap: 15px;
 }
 
@@ -278,6 +281,17 @@ button {
 
     .profile-details {
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 600px) {
+    .profile-photo {
+        width: 80px; /* Ajusta a largura da foto de perfil para telas menores */
+        height: 80px; /* Ajusta a altura da foto de perfil para telas menores */
+    }
+
+    .profile-info {
+        padding-left: 10px; /* Reduz o preenchimento à esquerda para telas menores */
     }
 }
 
